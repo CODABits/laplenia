@@ -7446,3 +7446,44 @@ form .row:first-child .floating-label-form-group {
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(240, 159, 17, 0.4);
 }
+
+/* Título del formulario responsive */
+.titulo-contacto-responsive {
+    font-size: 1.8rem;
+}
+
+@media (min-width: 992px) {
+    .titulo-contacto-responsive {
+        font-size: 2.8rem;
+    }
+}
+
+/* ==========================================
+   FORMULARIO DE CONTACTO RESPONSIVO (NUEVO)
+   ========================================== */
+.card-contacto-wrapper {
+    padding: 24px 18px;
+}
+
+.tarjeta-formulario-inner {
+    padding: 22px 16px;
+}
+
+@media (min-width: 992px) {
+    .card-contacto-wrapper {
+        padding: 45px;
+    }
+    .tarjeta-formulario-inner {
+        padding: 35px;
+    }
+}
+
+/* Eliminar recuadros/marcos de enfoque en los enlaces del navbar */
+#mainNav a:focus,
+#mainNav a:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
