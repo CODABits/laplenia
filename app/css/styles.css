@@ -7420,3 +7420,29 @@ form .row:first-child .floating-label-form-group {
 
 .btn-social {
   margin-bottom: 0.5rem; }
+
+  /* ==========================================
+   BOTÓN CTA PERSONALIZADO (PÍLDORA)
+   ========================================== */
+.btn-cta-landing {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff !important;
+    background-color: #f09f11;
+    padding: 16px 42px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-cta-landing:hover {
+    background-color: #d88b0e;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(240, 159, 17, 0.4);
+}
