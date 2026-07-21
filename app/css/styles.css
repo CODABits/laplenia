@@ -58,6 +58,12 @@ body {
   text-align: left;
   background-color: #fff; }
 
+/* Corrección de desborde horizontal para móviles */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
