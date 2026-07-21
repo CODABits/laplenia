@@ -3,18 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="laplenia®" content="programa de bienestar psicosocial para la jubilación">
-        <title>✨🚀laplenia</title>
+        <meta name="description" content="Programa premium de bienestar psicosocial y estrategia de relevo generacional para la jubilación corporativa.">
+        <meta name="author" content="Laplenia®">
+        <title>Laplenia® | Evolución del Legado</title>
+
         <!-- ==========================================
              METAETIQUETAS PARA COMPARTIR (OPEN GRAPH)
         =========================================== -->
-        <!-- Vista previa en WhatsApp, LinkedIn y Facebook -->
-        <meta property="og:type" content="www.laplenia.com">
+        <meta property="og:type" content="website">
         <meta property="og:title" content="Laplenia® | Evolución del Legado">
         <meta property="og:description" content="Programa premium de bienestar psicosocial y estrategia de relevo generacional para la jubilación corporativa.">
-        <meta property="og:url" content="https://www.tusitio.com">
-        <meta property="og:image" content="https://www.tusitio.com/assets/img/portfolio/logoreal-laplenia.png">
+        <meta property="og:url" content="https://codabits.github.io/laplenia/">
+        <meta property="og:image" content="https://github.com/CODABits/laplenia/raw/main/app/assets/img/logo-web.png">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:image:type" content="image/png">
@@ -23,1611 +23,938 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Laplenia® | Evolución del Legado">
         <meta name="twitter:description" content="Programa premium de bienestar psicosocial y estrategia de relevo generacional para la jubilación corporativa.">
-        <meta name="twitter:image" content="https://www.tusitio.com/assets/img/portfolio/logoreal-laplenia.png">
-        
-        
+        <meta name="twitter:image" content="https://github.com/CODABits/laplenia/raw/main/app/assets/img/logo-web.png">
+       
+
         <!-- ==========================================
-     FAVICONS MULTIPLATAFORMA (COMPLETO)
+     FAVICONS MULTIPLATAFORMA (RUTA CORREGIDA)
 =========================================== -->
-<!-- Icono clásico para la pestaña del navegador (Desktop) -->
+<!-- Icono clásico para navegador (Desktop) -->
 <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
 
 <!-- Icono para dispositivos Apple (iOS / iPhone / iPad) -->
 <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
 
-<!-- Iconos y configuración para Android / Chrome Web App -->
+<!-- Configuración para Android y Chrome -->
 <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="assets/favicons/android-chrome-512x512.png">
 <link rel="manifest" href="assets/favicons/site.webmanifest">
         
-        <!-- Font Awesome icons (free version)-->
-       
-       
+        <!-- Font Awesome icons -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-        <!-- Core theme CSS (includes Bootstrap)-->
+        
+        <!-- Google Fonts & Stylesheets -->
         <link href="css/styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
-        <!-- Fonts CSS-->
-      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Lobster&family=Pattaya&family=Montserrat:wght@400;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
     <body id="page-top">
-       
 
-<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-    <div class="container">
-        
-        <!-- LOGO + TEXTO CON 3D INTEGRADO (SIN NEGRO) -->
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
-            <!-- Tu imagen de logo intacta -->
-            <img id="brandImage" src="assets/img/laplenia-mini.png" alt="logo brand" style="max-height: 40px; width: auto;">
-            
-            <!-- TEXTO CON 3D EN COLOR AZUL MARCA -->
-            <span style="
-                font-family: 'Lobster', Georgia, serif; 
-                font-size: 1.8rem; 
-                font-weight: normal; 
-                color: #f09f11; 
-                line-height: 1 !important;
-                display: inline-block;
-                letter-spacing: 0.5px;
+        <!-- MENÚ DE NAVEGACIÓN ÚNICO -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img id="brandImage" src="assets/img/laplenia-mini.png" alt="logo brand" style="max-height: 40px; width: auto;">
+                    <span style="
+                        font-family: 'Lobster', Georgia, serif; 
+                        font-size: 1.8rem; 
+                        font-weight: normal; 
+                        color: #f09f11; 
+                        line-height: 1 !important;
+                        display: inline-block;
+                        letter-spacing: 0.5px;
+                        text-shadow: 
+                            1px 1px 0px #023a40, 1px 2px 0px #023a40,
+                            2px 1px 0px #023a40, 2px 2px 0px #023a40,
+                            3px 1px 0px #023a40, 3px 2px 0px #023a40;
+                    ">
+                        Laplenia
+                    </span>
+                </a>
                 
-                /* EXTRUSIÓN 3D EN AZUL PETRÓLEO (#023a40) EN LUGAR DE NEGRO */
-                text-shadow: 
-                    1px 1px 0px #023a40, 1px 2px 0px #023a40,
-                    2px 1px 0px #023a40, 2px 2px 0px #023a40,
-                    3px 1px 0px #023a40, 3px 2px 0px #023a40;
-            ">
-                Laplenia
-            </span>
-        </a>
-        
-        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fas fa-bars"></i>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">ESTRATEGIAS</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <!-- 🛠️ CAMBIADO A METODOLOGÍA (Apuesta segura corporativa) -->
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">METODOLOGÍA</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONSULTORÍA</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-        <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <i class="fas fa-bars"></i>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">ESTRATEGIAS</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">VALIDEZ</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONSULTORÍA</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars"></i>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">ESTRATEGIAS</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">METODOLOGÍA</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONSULTORÍA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <!-- CABECERA PRINCIPAL / HÉROE -->
+        <header class="masthead bg-primary text-white text-center" style="padding-top: 140px; padding-bottom: 80px;">
+            <div class="container d-flex align-items-center flex-column">
+                
+                <!-- LOGO CENTRADO Y ADAPTADO MÓVIL (UX/UI OPTIMIZADO) -->
+                <div style="text-align: center; margin-bottom: 1.0rem;">
+                    <img src="assets/img/logo-web.png" alt="Laplenia Logo" class="img-fluid" style="max-width: 200px; width: 100%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
+                </div>
 
+                <!-- FRASE CÉLEBRE -->
+                <div style="max-width: 650px; margin: 10px auto 25px auto; padding: 0 10px; text-align: center; box-sizing: border-box;">
+                    <p style="font-family: 'Lato', sans-serif; font-size: 1.4rem; line-height: 1.4; color: #f5f5f5; font-style: italic; font-weight: 300; margin-bottom: 10px;">
+                        "El legado no es dejar algo para la gente, es dejar algo en la gente."
+                    </p>
+                    <span style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 3px; color: #f09f11; font-weight: 600;">
+                        — Peter Strople
+                    </span>
+                </div>
 
+                <!-- TÍTULO PRINCIPAL -->
+                <h1 class="masthead-heading mb-0" style="
+                    font-family: 'Lobster', Georgia, serif; 
+                    font-size: 3.8rem; 
+                    font-weight: normal; 
+                    text-transform: none; 
+                    color: #ded9cf; 
+                    text-align: center;
+                    letter-spacing: 0.5px;
+                    line-height: 0.82; 
+                    margin-bottom: 25px;
+                    font-style: normal; 
+                    text-shadow: 
+                        1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
+                        1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
+                        3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
+                        4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
+                        5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
+                        6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
+                        7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
+                        8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
+                ">
+                    Relevo<br>Generacional
+                </h1>
 
+                <!-- DIVISOR CON ESTRELLA -->
+                <div class="divider-custom divider-light" style="margin: 25px 0; display: flex; align-items: center; justify-content: center; gap: 15px;">
+                    <div class="divider-custom-line" style="float: none; margin: 0; width: 80px;"></div>
+                    <div class="divider-custom-icon" style="margin: 0; line-height: 1;"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line" style="float: none; margin: 0; width: 80px;"></div>
+                </div>
 
+                <!-- SUBTÍTULO PRINCIPAL -->
+                <p style="
+                    font-family: 'Montserrat', sans-serif; 
+                    font-size: 1.1rem; 
+                    font-weight: 700; 
+                    color: #ded9cf; 
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: 2.5px; 
+                    line-height: 1.4; 
+                    max-width: 650px;
+                    margin: 25px auto 35px auto;
+                    text-shadow: 
+                        1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
+                        1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
+                        3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e;
+                ">
+                    Programa de bienestar psicosocial <br>en la Jubilación
+                </p>
 
-<header class="masthead bg-primary text-white text-center" style="padding-top: 140px; padding-bottom: 80px;">
-    <div class="container d-flex align-items-center flex-column">
-        
-        <!-- 1. LOGO -->
-        
+                
+                <!-- VIDEO YOUTUBE: HIMNO -->
+                <div style="display: flex; justify-content: center; width: 100%; max-width: 650px; margin: 0 auto 35px auto; padding: 0 15px; box-sizing: border-box;">
+                    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(5, 10, 14, 0.4);">
+                        <iframe src="https://www.youtube.com/embed/WX2B7fSncp4" 
+                                title="Himno Laplenia"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
 
-<!-- LOGO COMPLETO DENTRO DEL CÍRCULO SIN CORTES -->
-<div style="text-align: center; margin-bottom: 1.0rem;">
-    <div class="logo-circulo-laplenia">
-        <img src="assets/img/logo-web.png" alt="Laplenia Logo">
-    </div>
-</div>
-
-<!-- OPCIÓN RECOMENDADA UX/UI -->
-<img src="ruta/tu-logo.png" class="img-fluid" style="max-width: 200px; width: 100%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
-
-
-        
-        <!-- 2. CONTENEDOR DE LA FRASE CÉLEBRE -->
-        <div style="max-width: 650px; margin: 10px auto 25px auto; padding: 0 10px; text-align: center; box-sizing: border-box;">
-            <p style="font-family: 'Lato', 'Arial', sans-serif; font-size: 1.4rem; line-height: 1.4; color: #f5f5f5; font-style: italic; font-weight: 300; margin-bottom: 10px;">
-                "El legado no es dejar algo para la gente, es dejar algo en la gente."
-            </p>
-            <span style="font-family: 'Montserrat', 'Helvetica', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 3px; color: #f09f11; font-weight: 600;">
-                — Peter Strople
-            </span>
-        </div>
-
-        <!-- 3. TÍTULO PRINCIPAL: RELEVO GENERACIONAL -->
-        <h1 class="masthead-heading mb-0" style="
-            font-family: 'Lobster', Georgia, serif; 
-            font-size: 3.8rem; 
-            font-weight: normal; 
-            text-transform: none; 
-            color: #ded9cf; 
-            text-align: center;
-            letter-spacing: 0.5px;
-            line-height: 0.82; 
-            margin-bottom: 25px;
-            font-style: normal; 
-            
-            /* EXTRUSIÓN REFORZADA MATE */
-            text-shadow: 
-                1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
-                1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
-                3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
-                4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
-                5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
-                6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
-                7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
-                8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
-        ">
-            Relevo<br>Generacional
-        </h1>
-
-        <!-- 4. DIVISOR DE ESTRELLA (Alineación corregida usando flex inline) -->
-        <div class="divider-custom divider-light" style="margin: 25px 0; display: flex; align-items: center; justify-content: center; gap: 15px;">
-            <div class="divider-custom-line" style="float: none; margin: 0; width: 80px;"></div>
-            <div class="divider-custom-icon" style="margin: 0; line-height: 1;"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line" style="float: none; margin: 0; width: 80px;"></div>
-        </div>
-
-        <!-- 5. SUBTÍTULO PRINCIPAL: LATO MATE DEFINITIVO (Sin imagen duplicada encima) -->
-     
-<p style="
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 1.1rem; 
-    font-weight: 700; 
-    color: #ded9cf; 
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2.5px; /* Hace respirar la tipografía */
-    line-height: 1.4; 
-    max-width: 650px;
-    margin: 25px auto 35px auto;
-    font-style: normal !important;
-    text-shadow: 
-        1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
-        1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
-        3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e;
-">
-    Programa de bienestar psicosocial <br>en la Jubilación
-</p>
-
-
-
-        <!-- 6. LLAMADO A LA ACCIÓN -->
-        <div style="margin-top: 35px; text-align: center;">
+<div style="text-align: center; margin-top: 25px; margin-bottom: 35px;">
     <a href="#portfolio" class="btn-cta-landing">
-        Conocer el Programa
+        CONOCER EL PROGRAMA
     </a>
 </div>
-        <br>
-<!-- 5B. VIDEO DE YOUTUBE: 📢HIMNO (RESPONSIVO Y CENTRADO) -->
-<div style="display: flex; justify-content: center; width: 100%; max-width: 650px; margin: 0 auto 35px auto; padding: 0 15px; box-sizing: border-box;">
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(5, 10, 14, 0.4);">
-        <iframe src="https://www.youtube.com/embed/WX2B7fSncp4" 
-                title="📢himno"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-        </iframe>
-    </div>
-</div>
-<!-- ==========================================
-     SECCIÓN: EL DESAFÍO INVISIBLE (TARJETAS)
-=========================================== -->
-<section class="page-section text-white" style="background-color: #023a40; padding: 80px 0;">
-    <div class="container">
-        
-        <!-- Subtítulo y Titular de Alto Impacto -->
-        <p style="
-            font-family: 'Montserrat', sans-serif;
-            color: #f09f11;
-            font-size: 0.85rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
-        ">
-            El Desafío Invisible
-        </p>
 
-        <h2 style="
-            font-family: 'Georgia', serif;
-            font-size: 2.8rem;
-            color: #ffffff;
-            font-weight: 400;
-            line-height: 1.2;
-            margin-bottom: 50px;
-            max-width: 900px;
-        ">
-            La ruptura del retiro silencioso: <span style="font-style: italic; color: #f09f11;">lo que las organizaciones pierden hoy.</span>
-        </h2>
-
-        <!-- Cuadrícula de 6 Tarjetas (3x2 en escritorio) -->
-        <div class="row g-4">
-            
-            <!-- TARJETA 01 -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                ">
-                    <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">01</p>
-                    <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Fuga del Conocimiento Vital</h3>
-                    <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">
-                        Décadas de experiencia, intuición de mercado y sabiduría institucional desaparecen en un solo día sin canales de transferencia eficientes.
-                    </p>
-                </div>
-            </div>
-
-            <!-- TARJETA 02 -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                ">
-                    <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">02</p>
-                    <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Abismo de Identidad</h3>
-                    <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">
-                        Los colaboradores enfrentan un duelo de identidad. La pérdida abrupta de su rol profesional suele derivar en vacíos existenciales y aislamiento.
-                    </p>
-                </div>
-            </div>
-
-            <!-- TARJETA 03 -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                ">
-                    <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">03</p>
-                    <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Brecha Intergeneracional</h3>
-                    <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">
-                        Los equipos jóvenes pierden la oportunidad de recibir mentores con madurez estratégica, dejando de lado el hilo conductor de la historia de la organización.
-                    </p>
-                </div>
-            </div>
-
-            <!-- TARJETA 04 -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                ">
-                    <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">04</p>
-                    <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Inestabilidad Psicosocial</h3>
-                    <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">
-                        El estrés, la ansiedad del retiro y la falta de un plan de vida estructurado impactan de manera directa en los indicadores de clima y bienestar organizacional.
-                    </p>
-                </div>
-            </div>
-
-            <!-- TARJETA 05 -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                ">
-                    <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">05</p>
-                    <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Desconexión Emocional</h3>
-                    <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">
-                        El proceso de jubilación se reduce a formularios y burocracia fría, rompiendo la lealtad y el sentido de pertenencia de años de servicio.
-                    </p>
-                </div>
-            </div>
-
-            <!-- TARJETA 06: DESTACADA (CALL TO ACTION) -->
-            <div class="col-md-4 mb-4">
-                <div style="
-                    background: linear-gradient(135deg, #1e5d3b 0%, #023a40 100%);
-                    border: 1px solid #1e5d3b;
-                    border-radius: 12px;
-                    padding: 35px 30px;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-                ">
-                    <div>
-                        <h3 style="font-family: 'Georgia', serif; font-size: 1.35rem; color: #ffffff; margin-bottom: 15px; font-weight: 700;">
-                            ¿Preparados para transformar este paradigma?
-                        </h3>
-                        <p style="color: #e2e8f0; font-size: 0.9rem; line-height: 1.6; margin-bottom: 25px;">
-                            Convertimos el retiro silencioso en una celebración consciente de madurez y transferencia generacional.
-                        </p>
-                    </div>
-                    <a href="#contact" style="
+                <!-- SECCIÓN TARJETAS: EL DESAFÍO INVISIBLE -->
+                <div style="width: 100%; padding-top: 40px;">
+                    <p style="
+                        font-family: 'Montserrat', sans-serif;
                         color: #f09f11;
+                        font-size: 0.85rem;
                         font-weight: 700;
-                        font-size: 0.95rem;
-                        text-decoration: none;
-                        display: inline-flex;
-                        align-items: center;
-                        gap: 8px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        margin-bottom: 10px;
                     ">
-                        Iniciar Diagnóstico Organizacional →
-                    </a>
-                </div>
-            </div>
+                        El Desafío Invisible
+                    </p>
 
-        </div>
-    </div>
-</section>
+                    <h2 style="
+                        font-family: 'Georgia', serif;
+                        font-size: 2.5rem;
+                        color: #ffffff;
+                        font-weight: 400;
+                        line-height: 1.2;
+                        margin: 0 auto 50px auto;
+                        max-width: 900px;
+                    ">
+                        La ruptura del retiro silencioso: <span style="font-style: italic; color: #f09f11;">lo que las organizaciones pierden hoy.</span>
+                    </h2>
 
-</div> <!-- Cierre del container del header -->
-</header>
+                    <!-- CUADRÍCULA DE 6 TARJETAS -->
+                    <div class="row g-4 text-left">
+                        <div class="col-md-4 mb-4">
+                            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 35px 30px; height: 100%;">
+                                <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">01</p>
+                                <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Fuga del Conocimiento Vital</h3>
+                                <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">Décadas de experiencia, intuición de mercado y sabiduría institucional desaparecen en un solo día sin canales de transferencia eficientes.</p>
+                            </div>
+                        </div>
 
-<!-- ==========================================
-     DIVISOR EN TIPO OLA CORREGIDO CON COLOR REAL (#023a40)
-=========================================== -->
-<div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
-    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px;">
-        <!-- El 'fill' ahora coincide exactamente con el fondo real de tu cabecera -->
-        <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
-    </svg>
-</div>
+                        <div class="col-md-4 mb-4">
+                            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 35px 30px; height: 100%;">
+                                <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">02</p>
+                                <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Abismo de Identidad</h3>
+                                <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">Los colaboradores enfrentan un duelo de identidad. La pérdida abrupta de su rol profesional suele derivar en vacíos existenciales y aislamiento.</p>
+                            </div>
+                        </div>
 
-<!-- ESTILOS EXTRAS PARA EL BOTÓN (Mantener estables) -->
-<style>
-    .btn-cta-landing {
-        display: inline-block;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 0.95rem;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #ffffff;
-        background-color: #f09f11;
-        padding: 14px 35px;
-        border-radius: 50px;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(240, 159, 17, 0.2);
-    }
-    .btn-cta-landing:hover {
-        background-color: #d6870f;
-        color: #ffffff;
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(240, 159, 17, 0.4);
-    }
-</style>
+                        <div class="col-md-4 mb-4">
+                            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 35px 30px; height: 100%;">
+                                <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">03</p>
+                                <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Brecha Intergeneracional</h3>
+                                <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">Los equipos jóvenes pierden la oportunidad de recibir mentores con madurez estratégica, dejando de lado el hilo conductor de la historia de la organización.</p>
+                            </div>
+                        </div>
 
-<!-- ANIMACIÓN LOTTIE: ÚNICO CONTENEDOR DE TRANSICIÓN (Usa el fondo blanco de forma limpia) -->
-<div style="background-color: #ffffff; text-align: center; padding-top: 10px; margin-bottom: -20px;">
-    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js" type="module"></script>
-    <dotlottie-wc src="https://lottie.host/9913d2ea-c430-458e-bce0-cdd221de87f7/QXH8RszMp1.lottie" style="width: 220px; height: 220px; display: inline-block;" autoplay loop></dotlottie-wc>
-</div>
+                        <div class="col-md-4 mb-4">
+                            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 35px 30px; height: 100%;">
+                                <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">04</p>
+                                <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Inestabilidad Psicosocial</h3>
+                                <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">El estrés, la ansiedad del retiro y la falta de un plan de vida estructurado impactan de manera directa en los indicadores de clima y bienestar organizacional.</p>
+                            </div>
+                        </div>
 
-<!-- ==========================================
-     SECCIÓN 2: ESTRATEGIAS (MANTENIENDO TU BASE)
-=========================================== -->
-<section class="page-section portfolio" id="portfolio" style="background-color: #ffffff; padding-top: 20px;">
-    <div class="container"><br>
-        <!-- Portfolio Section Heading-->
-   
-<h1 class="masthead-heading mb-0" style="
-            font-family: 'Lobster', Georgia, serif; 
-            font-size: 3.8rem; 
-            font-weight: normal; 
-            text-transform: none; 
-            color: #f09f11; 
-            text-align: center;
-            letter-spacing: 0.5px;
-            line-height: 0.8 !important; /* CORRECCIÓN: Separa las líneas para que la sombra no pise las letras de abajo */
-            padding-top: 15px !important;  /* CORRECCIÓN: Espacio para que la sombra superior no se corte */
-            margin-bottom: 25px;
-            font-style: normal; 
-            overflow: visible !important;
-            will-change: transform; transform: translateZ(0); display: block;
-            
-            /* EXTRUSIÓN REFORZADA MATE */
-            text-shadow: 
-                1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
-                1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
-                3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
-                4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
-                5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
-                6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
-                7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
-                8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
-        ">
-        Evolución del <br> legado
-</h1>
+                        <div class="col-md-4 mb-4">
+                            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 35px 30px; height: 100%;">
+                                <p style="color: #f09f11; font-weight: 700; font-size: 0.9rem; margin-bottom: 20px;">05</p>
+                                <h3 style="font-family: 'Georgia', serif; font-size: 1.25rem; color: #ffffff; margin-bottom: 15px;">Desconexión Emocional</h3>
+                                <p style="color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin: 0;">El proceso de jubilación se reduce a formularios y burocracia fría, rompiendo la lealtad y el sentido de pertenencia de años de servicio.</p>
+                            </div>
+                        </div>
 
-        <!-- Icon Divider-->
-        <div class="divider-custom" style="margin: 20px 0;">
-            <div class="divider-custom-line" style="background-color: #f09f11 !important;"></div>
-            <div class="divider-custom-icon" style="color: #f09f11 !important;"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line" style="background-color: #f09f11 !important;"></div>
-        </div>
-        <!-- TEXTO DE INSTRUCCIÓN: LATO Y COLOR CORPORATIVO -->
-<div class="text-center mb-4" style="font-family: 'Lato', sans-serif; color: #023a40; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px;">
-    <span style="display: inline-block; animation: sutilBrinco 2s infinite ease-in-out; margin-right: 5px;"></span> 
-    👉🏼Toca cada imagen y descubre la ruta <br><br><br>
-    <span style="color: #f09f11 ">Las organizaciones no solo se construyen con metas e infraestructura; 
-        se sostienen en las memorias, huellas emocionales y aprendizajes compartidos por quienes trazan su historia.
-        <br> <br> Nuestro programa impulsa un Legado Consciente y un Relevo Generacional que trasciende el tiempo,
-         asegurando que el conocimiento crítico se transforme en luz para los líderes del futuro.</span>
-</div>
-
-<!-- PEQUEÑA ANIMACIÓN PARA QUE EL EMOJI LLAME LA ATENCIÓN SUTILMENTE -->
-<style>
-    @keyframes sutilBrinco {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(4px); }
-    }
-</style>
-
-
-     
-        <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center">
-            <!-- Portfolio Items-->
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <!-- TARJETA DESTACADA CTA -->
+                        <div class="col-md-4 mb-4">
+                            <div style="background: linear-gradient(135deg, #1e5d3b 0%, #023a40 100%); border: 1px solid #1e5d3b; border-radius: 12px; padding: 35px 30px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div>
+                                    <h3 style="font-family: 'Georgia', serif; font-size: 1.35rem; color: #ffffff; margin-bottom: 15px; font-weight: 700;">¿Preparados para transformar este paradigma?</h3>
+                                    <p style="color: #e2e8f0; font-size: 0.9rem; line-height: 1.6; margin-bottom: 25px;">Convertimos el retiro silencioso en una celebración consciente de madurez y transferencia generacional.</p>
+                                </div>
+                                <a href="#formulario-contacto" style="color: #f09f11; font-weight: 700; font-size: 0.95rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                                    Iniciar Diagnóstico Organizacional →
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <img class="img-fluid" src="assets/img/portfolio/antorcha-laplenia.jpeg" alt="New Image"/>
                 </div>
+
             </div>
+        </header>
+
+        <!-- DIVISOR EN TIPO OLA (AZUL PETRÓLEO A BLANCO) -->
+        <div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px;">
+                <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
+            </svg>
+        </div>
+
+        <!-- ANIMACIÓN LOTTIE TRANSICIÓN -->
+        <div style="background-color: #ffffff; text-align: center; padding-top: 10px; margin-bottom: -20px;">
+            <dotlottie-wc src="https://lottie.host/9913d2ea-c430-458e-bce0-cdd221de87f7/QXH8RszMp1.lottie" style="width: 220px; height: 220px; display: inline-block;" autoplay loop></dotlottie-wc>
+        </div>
+
+        <!-- SECCIÓN 2: ESTRATEGIAS -->
+        <section class="page-section portfolio" id="portfolio" style="background-color: #ffffff; padding-top: 20px;">
+            <div class="container"><br>
+                <h1 class="masthead-heading mb-0" style="
+                    font-family: 'Lobster', Georgia, serif; 
+                    font-size: 3.8rem; 
+                    font-weight: normal; 
+                    text-transform: none; 
+                    color: #f09f11; 
+                    text-align: center;
+                    letter-spacing: 0.5px;
+                    line-height: 0.8 !important; 
+                    padding-top: 15px !important; 
+                    margin-bottom: 25px;
+                    font-style: normal; 
+                    overflow: visible !important;
+                    text-shadow: 
+                        1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
+                        1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
+                        3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
+                        4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
+                        5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
+                        6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
+                        7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
+                        8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
+                ">
+                    Evolución del <br> legado
+                </h1>
+
+                <div class="divider-custom" style="margin: 20px 0;">
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important;"></div>
+                    <div class="divider-custom-icon" style="color: #f09f11 !important;"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important;"></div>
+                </div>
+
+                <div class="text-center mb-4" style="font-family: 'Lato', sans-serif; color: #023a40; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px;">
+                    👉🏼 Toca cada imagen y descubre la ruta <br><br>
+                    <span style="color: #f09f11;">
+                        Las organizaciones no solo se construyen con metas e infraestructura; se sostienen en las memorias, huellas emocionales y aprendizajes compartidos por quienes trazan su historia.<br><br>
+                        Nuestro programa impulsa un Legado Consciente y un Relevo Generacional que trasciende el tiempo, asegurando que el conocimiento crítico se transforme en luz para los líderes del futuro.
+                    </span>
+                </div>
+
+                <!-- GRILLA DE PORTAFOLIO -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/antorcha-laplenia.jpeg" alt="La Antorcha"/>
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/faro-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/faro-laplenia.png" alt="El Faro"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/bottle-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/bottle-laplenia.png" alt="El Relicario"/>
                         </div>
                     </div>
-<!-- TARJETA 1: LLAVE (Ajustada a la referencia) -->
-<div class="col-md-6 col-lg-4 mb-5">
-    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-        </div>
-        <img class="img-fluid" src="assets/img/portfolio/laplenia-key.png" alt="Llave del Conocimiento" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
-    </div>
-</div>
-
-<!-- TARJETA 2: BRÚJULA (Referencia) -->
-<div class="col-md-6 col-lg-4 mb-5">
-    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-        </div>
-        <img class="img-fluid" src="assets/img/portfolio/laplenia-brujula.png" alt="Brújula Estratégica" />
-    </div>
-</div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/laplenia-key.png" alt="La Llave" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/laplenia-brujula.png" alt="La Brújula" />
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/lazos-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/lazos-laplenia.png" alt="El Sello"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/nivel1-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nivel1-laplenia.png" alt="La Semilla"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/nivel2-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nivel2-laplenia.png" alt="Puente Generacional"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/nivel3-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nivel3-laplenia.png" alt="Cumbre del Legado"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/logoreal-laplenia.png" alt="New Image"/>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/logoreal-laplenia.png" alt="Ecosistema Consciente"/>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Modal-->
-        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Antorcha</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/antorcha-laplenia.jpeg" alt="antorcha-laplenia"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
 
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-            Propósito: Iluminando la Transición
-        </p>
-        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-            Enciende el compromiso y prepara la mentalidad de los colaboradores <i>senior</i> para transmitir su fuego y experiencia con propósito, transformando el retiro laboral en un motivo de orgullo y plenitud.
-        </p>
-      </div>
+        <!-- OLA DE TRANSICIÓN: BLANCO A AZUL PETRÓLEO -->
+        <div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px; transform: rotate(180deg);">
+                <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
+            </svg>
+        </div>
 
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar✨</button>
-                                </div>
-                            </div>
+        <!-- SECCIÓN 3: RESPALDO METODOLÓGICO -->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <h1 class="masthead-heading mb-0" style="
+                    font-family: 'Lobster', Georgia, serif; 
+                    font-size: 3.8rem; 
+                    font-weight: normal; 
+                    text-transform: none; 
+                    color: #f09f11; 
+                    text-align: center;
+                    letter-spacing: 0.5px;
+                    line-height: 0.8 !important; 
+                    padding-top: 15px !important;  
+                    margin-bottom: 25px;
+                    font-style: normal; 
+                    text-shadow: 
+                        1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
+                        1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
+                        3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
+                        4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
+                        5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
+                        6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
+                        7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
+                        8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
+                ">
+                    Respaldo<br>Metodológico
+                </h1>
+                
+                <div class="divider-custom" style="margin: 20px 0;">
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
+                    <div class="divider-custom-icon" style="color: #f09f11 !important; font-size: 1.5rem;"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
+                </div>
+                
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center mb-4 mb-lg-0">
+                        <div style="width: 190px; height: 190px; margin: 0 auto; background: transparent; mix-blend-mode: screen !important;">
+                            <dotlottie-wc src="https://lottie.host/bcd9ad8c-aec1-4f28-b943-0d98547d7c8c/aQ1uD1QWaJ.json" style="width: 100%; height: 100%; display: block; mix-blend-mode: screen !important; filter: sepia(100%) saturate(600%) hue-rotate(5deg) brightness(1.1);" autoplay loop></dotlottie-wc>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <p class="lead" style="font-size: 1.15rem; line-height: 1.6; margin-bottom: 0;">
+                            Nuestra propuesta de jubilación laboral y relevo generacional cuenta con un sólido diseño técnico validado metodológicamente en el mercado, garantizando una transición humana, planificada y alineada con los objetivos corporativos.
+                        </p>
+                    </div>
+                    
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <p class="lead" style="font-size: 1.15rem; line-height: 1.6; margin-bottom: 0;">
+                            A través de un riguroso estudio de validación, estructuramos un sistema práctico que asegura la transferencia del conocimiento crítico, blindando la productividad organizacional mientras honramos el legado de sus colaboradores senior.
+                        </p>
+                    </div>
+                    
+                    <div class="col-lg-3 text-center">
+                        <div style="width: 190px; height: 190px; margin: 0 auto; background: transparent; border-radius: 8px; overflow: hidden;">
+                            <dotlottie-wc src="https://lottie.host/d12ecdaa-97d6-4ffa-98a4-18f538138dae/JKJW84QM65.json" style="width: 100%; height: 100%; display: block; filter: contrast(1.1) brightness(0.95); mix-blend-mode: screen !important;" autoplay loop></dotlottie-wc>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">El Faro</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/faro-laplenia.png" alt="faro-laplenia"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Propósito: Orientación y Claridad
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Define una guía clara en momentos de cambio organizacional, alineando la memoria histórica del equipo con la visión de futuro de la compañía para evitar incertidumbres.
-    </p>
-</div>
 
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div style="width: 100%; text-align: center; margin-top: 45px; margin-bottom: 10px;">
+                    <a href="#formulario-contacto" style="background-color: #f09f11; color: #023a40; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 0.88rem; letter-spacing: 1.5px; padding: 14px 32px; border-radius: 30px; text-transform: uppercase; text-decoration: none; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.25); transition: all 0.3s ease;">
+                        INICIE EL PROCESO AQUÍ ↓
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolnio-modal-title text-secondary mb-0">El Relicario</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/bottle-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
+        </section>
 
-                                        <div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Propósito: Captura del BiSaber Crítico-Creativo
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Protege la inteligencia operativa acumulada durante años, creando canales emocionales y técnicos para que la experiencia no se pierda, sino que se atesore.
-    </p>
-</div>
-
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Llave</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/laplenia-key.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-            Propósito: Acceso al Potencial de Relevo
-        </p>
-        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-            Desbloquea las barreras entre generaciones, abriendo la puerta a una comunicación fluida que facilita la entrega de responsabilidades sin fricciones.
-        </p>
-      </div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Brújula</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/laplenia-brujula.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Propósito: Dirección y Navegación Conjunta
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Mantiene el rumbo del equipo directivo mediante valores compartidos, asegurando que los nuevos líderes mantengan la identidad y el ADN de la organización.
-    </p>
-</div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">El Sello</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/lazos-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Propósito: Blindaje Organizacional
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Consolida la cultura interna protegiéndola contra la pérdida de talento, garantizando una continuidad operativa segura y sostenible en el tiempo.
-    </p>
-</div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Semilla</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel1-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Nivel 1: Semilla del Legado
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Sensibilización y primeros pasos. La empresa establece las bases de un retiro respetuoso y de una cultura enfocada en el reconocimiento del talento humano.
-    </p>
-</div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal7Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Puente Generacional</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel2-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-
-<div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Nivel 2: Puente Generacional
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Integración y transferencia activa. Los equipos maduros y los nuevos talentos coexisten en sinergia, garantizando que el know-how fluya sin contratiempos.
-    </p>
-</div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal8Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Cumbre del Legado</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel3-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-
-                                      <div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Nivel 3: Cumbre del Legado Consciente
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Sostenibilidad y trascendencia absoluta. La organización se consolida como un referente que honra la trayectoria de sus colaboradores mientras blinda su futuro ejecutivo.
-    </p>
-</div>  
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal9Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Ecosistema Consciente</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/logoreal-laplenia.png" alt="New Image"/>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">
-
-                                        <div class="modal-body" style="padding: 20px 25px 30px 25px;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
-        Ecosistema Integral: Programa Laplenia
-    </p>
-    <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">
-        Un itinerario de acompañamiento progresivo que articula <b>6 momentos clave de desarrollo</b> y <b>3 niveles de madurez estratégica</b>. Un modelo integral que guía paso a paso a la organización desde la preparación humana hasta la consolidación de un relevo generacional armónico, protegido y perdurable.
-    </p>
-</div>
-
-
-                                    </p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar🚀</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- ==========================================
-     NUEVA OLA DE TRANSICIÓN: BLANCO A AZUL PETRÓLEO (#023a40)
-=========================================== -->
-<div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
-    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px; transform: rotate(180deg);">
-        <!-- El fill ahora pinta el azul oscuro hacia abajo de forma fluida -->
-        <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
-    </svg>
-</div>
-        
-
-<!-- ==========================================
-     SECCIÓN 3: RESPALDO METODOLÓGICO (ESTUDIO)
-=========================================== -->
-<section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-        
-        <!-- Heading de la Sección con Fuente Lobster Estilizada -->
-        <h1 class="masthead-heading mb-0" style="
-            font-family: 'Lobster', Georgia, serif; 
-            font-size: 3.8rem; 
-            font-weight: normal; 
-            text-transform: none; 
-            color: #f09f11; 
-            text-align: center;
-            letter-spacing: 0.5px;
-            line-height: 0.8 !important; 
-            padding-top: 15px !important;  
-            margin-bottom: 25px;
-            font-style: normal; 
-            overflow: visible !important;
-            will-change: transform; transform: translateZ(0); display: block;
-            
-            /* EXTRUSIÓN REFORZADA MATE */
-            text-shadow: 
-                1px 0px 0px #050a0e, 0px 1px 0px #050a0e, 1px 1px 0px #050a0e,
-                1px 2px 0px #050a0e, 2px 1px 0px #050a0e, 2px 2px 0px #050a0e,
-                3px 0px 0px #050a0e, 0px 3px 0px #050a0e, 3px 1px 0px #050a0e, 1px 3px 0px #050a0e, 3px 2px 0px #050a0e, 2px 3px 0px #050a0e, 3px 3px 0px #050a0e,
-                4px 0px 0px #050a0e, 0px 4px 0px #050a0e, 4px 1px 0px #050a0e, 1px 4px 0px #050a0e, 4px 2px 0px #050a0e, 2px 4px 0px #050a0e, 4px 3px 0px #050a0e, 3px 4px 0px #050a0e, 4px 4px 0px #050a0e,
-                5px 0px 0px #050a0e, 0px 5px 0px #050a0e, 5px 1px 0px #050a0e, 1px 5px 0px #050a0e, 5px 2px 0px #050a0e, 2px 5px 0px #050a0e, 5px 3px 0px #050a0e, 3px 5px 0px #050a0e, 5px 4px 0px #050a0e, 4px 5px 0px #050a0e, 5px 5px 0px #050a0e,
-                6px 0px 0px #050a0e, 0px 6px 0px #050a0e, 6px 1px 0px #050a0e, 1px 6px 0px #050a0e, 6px 2px 0px #050a0e, 2px 6px 0px #050a0e, 6px 3px 0px #050a0e, 3px 6px 0px #050a0e, 6px 4px 0px #050a0e, 4px 6px 0px #050a0e, 6px 5px 0px #050a0e, 5px 6px 0px #050a0e, 6px 6px 0px #050a0e,
-                7px 6px 0px #050a0e, 6px 7px 0px #050a0e, 7px 7px 0px #050a0e,
-                8px 7px 0px #050a0e, 7px 8px 0px #050a0e, 8px 8px 0px #050a0e;
-        ">
-            Respaldo<br>Metodológico
-        </h1>
-        
-        <!-- Divisor con Estrella Dorada -->
-        <div class="divider-custom" style="margin: 20px 0;">
-            <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
-            <div class="divider-custom-icon" style="color: #f09f11 !important; font-size: 1.5rem;"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
-        </div>
-        
-        <!-- Contenido Organizado en 4 Columnas Simétricas -->
-        <div class="row align-items-center">
-            
-           <!-- COLUMNA 1: ANIMACIÓN LOTTIE IZQUIERDA (DORADO #f09f11 Y SIN FONDO) -->
-<div class="col-lg-3 text-center mb-4 mb-lg-0">
-    <div style="
-        width: 190px; 
-        height: 190px; 
-        margin: 0 auto;
-        background: transparent;
-        mix-blend-mode: screen !important;
-    ">
-        <dotlottie-wc
-            src="https://lottie.host/bcd9ad8c-aec1-4f28-b943-0d98547d7c8c/aQ1uD1QWaJ.json"
-            style="
-                width: 100%; 
-                height: 100%; 
-                display: block;
-                mix-blend-mode: screen !important;
-                /* FILTRO PARA TINTAR LA ANIMACIÓN EN DORADO (#f09f11) */
-                filter: sepia(100%) saturate(600%) hue-rotate(5deg) brightness(1.1);
-            "
-            autoplay
-            loop>
-        </dotlottie-wc>
-    </div>
-</div>
-            
-            <!-- COLUMNA 2: RESUMEN PERFECTO PARTE 1 -->
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <p class="pre-wrap lead" style="font-size: 1.15rem; line-height: 1.6; margin-bottom: 0;">
-                    Nuestra propuesta de jubilación laboral y relevo generacional cuenta con un sólido diseño técnico validado metodológicamente en el mercado, garantizando una transición humana, planificada y alineada con los objetivos corporativos.
-                </p>
-            </div>
-            
-            <!-- COLUMNA 3: RESUMEN PERFECTO PARTE 2 -->
-            <div class="col-lg-3 mb-4 mb-lg-0">
-                <p class="pre-wrap lead" style="font-size: 1.15rem; line-height: 1.6; margin-bottom: 0;">
-                    A través de un riguroso estudio de validación, estructuramos un sistema práctico que asegura la transferencia del conocimiento crítico, blindando la productividad organizacional mientras honramos el legado de sus colaboradores senior.
-                </p>
-            </div>
-            
-           <!-- COLUMNA 4: ANIMACIÓN LOTTIE DERECHA (FONDO GRIS ELIMINADO) -->
-<div class="col-lg-3 text-center">
-    <div style="
-        width: 190px; 
-        height: 190px; 
-        margin: 0 auto; 
-        background: transparent;
-        border-radius: 8px;
-        overflow: hidden;
-    ">
-        <dotlottie-wc
-            src="https://lottie.host/d12ecdaa-97d6-4ffa-98a4-18f538138dae/JKJW84QM65.json"
-            style="
-                width: 100%; 
-                height: 100%; 
-                display: block;
-                filter: contrast(1.1) brightness(0.95);
-                mix-blend-mode: screen !important;
-            "
-            autoplay
-            loop>
-        </dotlottie-wc>
-    </div>
-</div>
-            
+        <!-- OLA TRANSICIÓN AZUL PETRÓLEO A BLANCO -->
+        <div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px;">
+                <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
+            </svg>
         </div>
 
-        <!-- INDICADOR VISUAL SUTIL DE CONTINUIDAD -->
-
-
-
-
-        <!-- BOTÓN CTA CENTRADO CON ENLACE AL FORMULARIO -->
-<div style="width: 100%; text-align: center; margin-top: 45px; margin-bottom: 10px;">
-    <a href="#formulario-contacto" style="
-        background-color: #f09f11; 
-        color: #023a40; 
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
-        font-size: 0.88rem; 
-        letter-spacing: 1.5px; 
-        padding: 14px 32px; 
-        border-radius: 30px; 
-        text-transform: uppercase; 
-        text-decoration: none; 
-        display: inline-block;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-        transition: all 0.3s ease;
-    " onmouseover="this.style.transform='scale(1.05)'; this.style.backgroundColor='#fbb021';" onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='#f09f11';">
-        INICIE EL PROCESO AQUÍ ↓
-    </a>
-</div>
-
-    </div>
-</section>
-
-
-
-
-
-
-
-<div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
-    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 90px;">
-        <!-- El 'fill' ahora coincide exactamente con el fondo real de tu cabecera -->
-        <path d="M0,0V60c120,40,350,50,600,0s400-40,600,0V0Z" style="fill: #023a40;"></path>
-    </svg>
-</div>
-
-
-        <section class="page-section" id="contact">
-           
-  <div class="container">
-                <!-- Contact Section Heading-->
-                    <div class="container">
-                <!-- About Section Heading-->
-
-
-
-
-<h1 class="masthead-heading mb-0" style="
-    font-family: 'Lobster', Georgia, serif; 
-    font-size: 3.8rem; 
-    font-weight: normal; 
-    text-transform: none; 
-    color: #f09f11; 
-    text-align: center;
-    letter-spacing: 0.5px;
-    line-height: 0.8 !important; /* Mantiene tu estructura de empaquetado actual */
-    padding-top: 15px !important;  
-    margin-bottom: 25px;
-    font-style: normal; 
-    overflow: visible !important;
-    display: block;
-    
-    /* =========================================================================
-       🛠️ NUEVA EXTRUSIÓN COMPACTA: Viaja solo en diagonal abajo-derecha.
-       Evita que la sombra intente subir y se corte con el borde del contenedor.
-       ========================================================================= */
-    text-shadow: 
-        1px 1px 0px #050a0e, 1px 2px 0px #050a0e, 1px 3px 0px #050a0e, 1px 4px 0px #050a0e, 1px 5px 0px #050a0e, 1px 6px 0px #050a0e,
-        2px 1px 0px #050a0e, 2px 2px 0px #050a0e, 2px 3px 0px #050a0e, 2px 4px 0px #050a0e, 2px 5px 0px #050a0e, 2px 6px 0px #050a0e,
-        3px 1px 0px #050a0e, 3px 2px 0px #050a0e, 3px 3px 0px #050a0e, 3px 4px 0px #050a0e, 3px 5px 0px #050a0e, 3px 6px 0px #050a0e,
-        4px 1px 0px #050a0e, 4px 2px 0px #050a0e, 4px 3px 0px #050a0e, 4px 4px 0px #050a0e, 4px 5px 0px #050a0e, 4px 6px 0px #050a0e,
-        5px 1px 0px #050a0e, 5px 2px 0px #050a0e, 5px 3px 0px #050a0e, 5px 4px 0px #050a0e, 5px 5px 0px #050a0e, 5px 6px 0px #050a0e,
-        6px 1px 0px #050a0e, 6px 2px 0px #050a0e, 6px 3px 0px #050a0e, 6px 4px 0px #050a0e, 6px 5px 0px #050a0e, 6px 6px 0px #050a0e,
-        7px 2px 0px #050a0e, 7px 3px 0px #050a0e, 7px 4px 0px #050a0e, 7px 5px 0px #050a0e, 7px 6px 0px #050a0e, 7px 7px 0px #050a0e,
-        8px 3px 0px #050a0e, 8px 4px 0px #050a0e, 8px 5px 0px #050a0e, 8px 6px 0px #050a0e, 8px 7px 0px #050a0e, 8px 8px 0px #050a0e;
-">
-    Agendar Consultoría
-</h1>
-
-
-
-
-                <!-- Icon Divider-->
-
+        <!-- SECCIÓN 4: CONSULTORÍA Y VIDEO INVITACIÓN -->
+        <section class="page-section" id="contact" style="padding-bottom: 30px;">
+            <div class="container">
+                <h1 class="masthead-heading mb-0" style="
+                    font-family: 'Lobster', Georgia, serif; 
+                    font-size: 3.8rem; 
+                    font-weight: normal; 
+                    text-transform: none; 
+                    color: #f09f11; 
+                    text-align: center;
+                    letter-spacing: 0.5px;
+                    line-height: 0.8 !important; 
+                    padding-top: 15px !important;  
+                    margin-bottom: 25px;
+                    font-style: normal; 
+                    text-shadow: 
+                        1px 1px 0px #050a0e, 1px 2px 0px #050a0e, 1px 3px 0px #050a0e, 1px 4px 0px #050a0e, 1px 5px 0px #050a0e, 1px 6px 0px #050a0e,
+                        2px 1px 0px #050a0e, 2px 2px 0px #050a0e, 2px 3px 0px #050a0e, 2px 4px 0px #050a0e, 2px 5px 0px #050a0e, 2px 6px 0px #050a0e,
+                        3px 1px 0px #050a0e, 3px 2px 0px #050a0e, 3px 3px 0px #050a0e, 3px 4px 0px #050a0e, 3px 5px 0px #050a0e, 3px 6px 0px #050a0e,
+                        4px 1px 0px #050a0e, 4px 2px 0px #050a0e, 4px 3px 0px #050a0e, 4px 4px 0px #050a0e, 4px 5px 0px #050a0e, 4px 6px 0px #050a0e,
+                        5px 1px 0px #050a0e, 5px 2px 0px #050a0e, 5px 3px 0px #050a0e, 5px 4px 0px #050a0e, 5px 5px 0px #050a0e, 5px 6px 0px #050a0e,
+                        6px 1px 0px #050a0e, 6px 2px 0px #050a0e, 6px 3px 0px #050a0e, 6px 4px 0px #050a0e, 6px 5px 0px #050a0e, 6px 6px 0px #050a0e,
+                        7px 2px 0px #050a0e, 7px 3px 0px #050a0e, 7px 4px 0px #050a0e, 7px 5px 0px #050a0e, 7px 6px 0px #050a0e, 7px 7px 0px #050a0e,
+                        8px 3px 0px #050a0e, 8px 4px 0px #050a0e, 8px 5px 0px #050a0e, 8px 6px 0px #050a0e, 8px 7px 0px #050a0e, 8px 8px 0px #050a0e;
+                ">
+                    Agendar Consultoría
+                </h1>
 
                 <div class="divider-custom" style="margin: 20px 0;">
-    <!-- Línea izquierda naranja -->
-    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
-    
-    <!-- Icono de Estrella naranja -->
-    <div class="divider-custom-icon" style="color: #f09f11 !important; font-size: 1.5rem;"><i class="fas fa-star"></i></div>
-    
-    <!-- Línea derecha naranja -->
-    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
-</div>
-  <!-- TEXTO DE INSTRUCCIÓN: LATO Y COLOR CORPORATIVO -->
-<div class="text-center mb-4" style="font-family: 'Lato', sans-serif; color: #023a40; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px;">
-    <span style="display: inline-block; animation: sutilBrinco 2s infinite ease-in-out; margin-right: 5px;"></span> 
-    🚀¿Preparados para cambiar de paradigma?
-</div>
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
+                    <div class="divider-custom-icon" style="color: #f09f11 !important; font-size: 1.5rem;"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line" style="background-color: #f09f11 !important; height: 3px !important; opacity: 1 !important;"></div>
+                </div>
 
-<!-- . VIDEO DE YOUTUBE: 📢invitación (RESPONSIVO Y CENTRADO) -->
-<!-- 5B. VIDEO DE YOUTUBE: 📢invitación (RESPONSIVO Y CENTRADO) -->
-<div style="display: flex; justify-content: center; width: 100%; max-width: 650px; margin: 0 auto 35px auto; padding: 0 15px; box-sizing: border-box;">
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(5, 10, 14, 0.4);">
-        <iframe src="https://www.youtube.com/embed/QuWwY82Gouk" 
-                title="Invitación Laplenia"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-        </iframe>
-    </div>
-</div>
+                <div class="text-center mb-4" style="font-family: 'Lato', sans-serif; color: #023a40; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px;">
+                    🚀 ¿Preparados para cambiar de paradigma?
+                </div>
 
-
-
-<!-- Carga de la librería DotLottie (Asegúrate de incluirla en tu HTML) -->
-<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js" type="module"></script>
-
-<!-- ==========================================
-     SECCIÓN: TESTIMONIOS CORPORATIVOS
-=========================================== -->
-<section class="page-section" style="background: #fcfbf7; padding: 80px 0;">
-    <div class="container">
-        
-        <!-- Fila de Testimonios -->
-        <div class="row text-center justify-content-center">
-            
-            <!-- TESTIMONIO 1 -->
-            <div class="col-md-4 mb-5 mb-md-0 px-4">
-                <!-- FOTO DE PERFIL CON BORDE DORADO -->
-                <div style="position: relative; display: inline-block; margin-bottom: 20px;">
-                    <div style="
-                        width: 130px; 
-                        height: 130px; 
-                        border-radius: 50%; 
-                        border: 4px solid #f09f11; 
-                        overflow: hidden;
-                        box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15);
-                        margin: 0 auto;
-                        background: #ffffff;
-                    ">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=256&h=256" alt="Carlos Mendoza" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="display: flex; justify-content: center; width: 100%; max-width: 650px; margin: 0 auto 35px auto; padding: 0 15px; box-sizing: border-box;">
+                    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(5, 10, 14, 0.4);">
+                        <iframe src="https://www.youtube.com/embed/QuWwY82Gouk" 
+                                title="Invitación Laplenia"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
-
-                <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Carlos Mendoza</h4>
-                <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Gerente de Gestión Humana</p>
-                
-                <!-- ANIMACIÓN LOTTIE DE ESTRELLAS -->
-                <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
-                    <dotlottie-wc
-                        src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json"
-                        style="width: 150px; height: 55px;"
-                        autoplay
-                        loop>
-                    </dotlottie-wc>
-                </div>
-
-                <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
-                    "La validación metodológica del programa nos dio la total tranquilidad para implementarlo. Logramos una transición intachable que protegió el conocimiento clave de la empresa."
-                </p>
             </div>
+        </section>
 
-            <!-- TESTIMONIO 2 -->
-            <div class="col-md-4 mb-5 mb-md-0 px-4">
-                <div style="position: relative; display: inline-block; margin-bottom: 20px;">
-                    <div style="
-                        width: 130px; 
-                        height: 130px; 
-                        border-radius: 50%; 
-                        border: 4px solid #f09f11; 
-                        overflow: hidden;
-                        box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15);
-                        margin: 0 auto;
-                        background: #ffffff;
-                    ">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=256&h=256" alt="Martha Ligia Gómez" style="width: 100%; height: 100%; object-fit: cover;">
+        <!-- TESTIMONIOS CORPORATIVOS -->
+        <section class="page-section" style="background: #fcfbf7; padding: 80px 0;">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-4 mb-5 mb-md-0 px-4">
+                        <div style="position: relative; display: inline-block; margin-bottom: 20px;">
+                            <div style="width: 130px; height: 130px; border-radius: 50%; border: 4px solid #f09f11; overflow: hidden; box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15); margin: 0 auto; background: #ffffff;">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=256&h=256" alt="Carlos Mendoza" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                        <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Carlos Mendoza</h4>
+                        <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Gerente de Gestión Humana</p>
+                        <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
+                            <dotlottie-wc src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json" style="width: 150px; height: 55px;" autoplay loop></dotlottie-wc>
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
+                            "La validación metodológica del programa nos dio la total tranquilidad para implementarlo. Logramos una transición intachable que protegió el conocimiento clave de la empresa."
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 mb-5 mb-md-0 px-4">
+                        <div style="position: relative; display: inline-block; margin-bottom: 20px;">
+                            <div style="width: 130px; height: 130px; border-radius: 50%; border: 4px solid #f09f11; overflow: hidden; box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15); margin: 0 auto; background: #ffffff;">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=256&h=256" alt="Martha Ligia Gómez" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                        <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Martha Ligia Gómez</h4>
+                        <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Directora de Operaciones</p>
+                        <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
+                            <dotlottie-wc src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json" style="width: 150px; height: 55px;" autoplay loop></dotlottie-wc>
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
+                            "El relevo generacional dejó de ser una preocupación. El sistema estructurado permitió que los nuevos líderes asumieran el control sin fricciones en los procesos organizacionales."
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 px-4">
+                        <div style="position: relative; display: inline-block; margin-bottom: 20px;">
+                            <div style="width: 130px; height: 130px; border-radius: 50%; border: 4px solid #f09f11; overflow: hidden; box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15); margin: 0 auto; background: #ffffff;">
+                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=256&h=256" alt="Andrés Ramírez" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                        <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Andrés Ramírez</h4>
+                        <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Vicepresidente Ejecutivo</p>
+                        <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
+                            <dotlottie-wc src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json" style="width: 150px; height: 55px;" autoplay loop></dotlottie-wc>
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
+                            "Es una inversión con un retorno estratégico inmediato. Logramos honrar el legado de quienes se jubilan mientras blindamos la continuidad del negocio de cara al futuro."
+                        </p>
                     </div>
                 </div>
-
-                <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Martha Ligia Gómez</h4>
-                <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Directora de Operaciones</p>
-                
-                <!-- ANIMACIÓN LOTTIE DE ESTRELLAS -->
-                <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
-                    <dotlottie-wc
-                        src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json"
-                        style="width: 150px; height: 55px;"
-                        autoplay
-                        loop>
-                    </dotlottie-wc>
-                </div>
-
-                <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
-                    "El relevo generacional dejó de ser una preocupación. El sistema estructurado permitió que los nuevos líderes asumieran el control sin fricciones en los procesos organizacionales."
-                </p>
             </div>
+        </section>
 
-            <!-- TESTIMONIO 3 -->
-            <div class="col-md-4 px-4">
-                <div style="position: relative; display: inline-block; margin-bottom: 20px;">
-                    <div style="
-                        width: 130px; 
-                        height: 130px; 
-                        border-radius: 50%; 
-                        border: 4px solid #f09f11; 
-                        overflow: hidden;
-                        box-shadow: 0 8px 20px rgba(2, 58, 64, 0.15);
-                        margin: 0 auto;
-                        background: #ffffff;
-                    ">
-                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=256&h=256" alt="Andrés Ramírez" style="width: 100%; height: 100%; object-fit: cover;">
+        <!-- FORMULARIO DE CONTACTO PREMIUM -->
+        <section id="formulario-contacto" class="page-section" style="background: #ffffff; padding: 60px 0;">
+            <div class="container">
+                <div style="background: linear-gradient(135deg, #023a40 0%, #1e5d3b 50%, #f09f11 100%); border-radius: 40px; padding: 50px; box-shadow: 0 15px 35px rgba(0,0,0,0.15);">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 text-white mb-5 mb-lg-0 pr-lg-5">
+                            <span style="font-family: 'Montserrat', sans-serif; color: #f09f11; font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 15px;">
+                                EL LEGADO ES HOY
+                            </span>
+                            <h2 style="font-family: 'Georgia', serif; font-size: 3.2rem; font-weight: normal; line-height: 1.2; margin-bottom: 25px;">
+                                El legado comienza cuando compartimos nuestra historia.
+                            </h2>
+                            <div style="display: flex; align-items: center; margin-bottom: 25px;">
+                                <div style="flex-grow: 0; width: 40px; height: 1px; background-color: rgba(255,255,255,0.3);"></div>
+                                <span style="color: #f09f11; margin: 0 10px; font-size: 0.8rem;">✦</span>
+                                <div style="flex-grow: 0; width: 40px; height: 1px; background-color: rgba(255,255,255,0.3);"></div>
+                            </div>
+                            <p style="font-family: 'Lato', sans-serif; font-size: 1.1rem; line-height: 1.6; color: rgba(255, 255, 255, 0.85); max-width: 520px;">
+                                Acompañemos a los arquitectos de su presente en el viaje de madurez que protegerá el futuro de su organización.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div style="background-color: #fcfbf7; border-radius: 30px; padding: 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                                <h3 style="font-family: 'Georgia', serif; color: #023a40; font-size: 1.8rem; text-align: center; margin-bottom: 30px;">
+                                    Contactar Consultor
+                                </h3>
+                                <form>
+                                    <div class="form-group mb-4">
+                                        <label style="font-family: 'Montserrat', sans-serif; font-size: 0.75rem; font-weight: 700; color: #555555; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 8px;">Nombre Organizacional</label>
+                                        <input type="text" class="form-control" placeholder="Ej: Universidad o Empresa SAS" style="border-radius: 12px; border: 1px solid #cccccc; padding: 12px 15px; font-family: 'Lato', sans-serif; background-color: #ffffff; font-size: 0.95rem;">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label style="font-family: 'Montserrat', sans-serif; font-size: 0.75rem; font-weight: 700; color: #555555; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 8px;">Tu Correo Corporativo</label>
+                                        <input type="email" class="form-control" placeholder="ejemplo@organizacion.com" style="border-radius: 12px; border: 1px solid #cccccc; padding: 12px 15px; font-family: 'Lato', sans-serif; background-color: #ffffff; font-size: 0.95rem;">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label style="font-family: 'Montserrat', sans-serif; font-size: 0.75rem; font-weight: 700; color: #555555; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 8px;">Asunto de Interés</label>
+                                        <select class="form-control" style="border-radius: 12px; border: 1px solid #cccccc; padding: 12px 15px; font-family: 'Lato', sans-serif; background-color: #ffffff; height: auto; font-size: 0.95rem; color: #333333;">
+                                            <option>Diseño de Programa de Retiro</option>
+                                            <option>Estrategia de Relevo Generacional</option>
+                                            <option>Consultoría Integral Laplenia</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn w-100" style="background-color: #012b30; color: #ffffff; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; padding: 14px; border-radius: 12px; border: none; transition: background-color 0.3s; margin-top: 10px;">
+                                        Construyamos el futuro juntos
+                                    </button>
+                                    <small style="display: block; text-align: center; color: #888888; font-family: 'Lato', sans-serif; font-size: 0.7rem; margin-top: 15px;">
+                                        Cumplimos con la política de tratamiento confidencial de datos.
+                                    </small>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <h4 style="font-family: 'Georgia', serif; color: #023a40; font-weight: 700; font-size: 1.3rem; margin-bottom: 3px;">Andrés Ramírez</h4>
-                <p style="font-family: 'Montserrat', sans-serif; color: #1e5d3b; font-weight: 600; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Vicepresidente Ejecutivo</p>
-                
-                <!-- ANIMACIÓN LOTTIE DE ESTRELLAS -->
-                <div style="display: flex; justify-content: center; align-items: center; margin: -10px 0 5px 0;">
-                    <dotlottie-wc
-                        src="https://lottie.host/79577b92-89b3-490d-a5bb-bea5e791f7e2/kPpWIxXoxi.json"
-                        style="width: 150px; height: 55px;"
-                        autoplay
-                        loop>
-                    </dotlottie-wc>
-                </div>
-
-                <p style="font-family: 'Lato', sans-serif; color: #555555; font-size: 0.95rem; line-height: 1.6; font-style: italic;">
-                    "Es una inversión con un retorno estratégico inmediato. Logramos honrar el legado de quienes se jubilan mientras blindamos la continuidad del negocio de cara al futuro."
-                </p>
             </div>
+        </section>
 
-        </div>
-    </div>
-</section>
-
-
-
-<!-- ==========================================
-     SECCIÓN: FORMULARIO DE CONTACTO PREMIUM
-=========================================== -->
-<section id="formulario-contacto" class="page-section" style="background: #ffffff; padding: 60px 0;">
-    <div class="container">
-        <!-- Contenedor Principal con Bordes Redondeados y Degradado -->
-        <div style="
-            background: linear-gradient(135deg, #023a40 0%, #1e5d3b 50%, #f09f11 100%);
-            border-radius: 40px;
-            padding: 50px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-        ">
-            <div class="row align-items-center">
-                
-                <!-- COLUMNA IZQUIERDA: MENSAJE ESTRATÉGICO -->
-                <div class="col-lg-7 text-white mb-5 mb-lg-0 pr-lg-5">
-                    <span style="
-                        font-family: 'Montserrat', sans-serif;
-                        color: #f09f11;
-                        font-weight: 700;
-                        font-size: 0.9rem;
-                        text-transform: uppercase;
-                        letter-spacing: 2px;
-                        display: block;
-                        margin-bottom: 15px;
-                    ">
-                        EL LEGADO ES HOY <!-- 🛠️ LIMPIADO: Quitamos el palito "|" aquí -->
-                    </span>
-                    
-                    <h2 style="
-                        font-family: 'Georgia', serif;
-                        font-size: 3.2rem;
-                        font-weight: normal;
-                        line-height: 1.2;
-                        margin-bottom: 25px;
-                    ">
-                        El legado comienza cuando compartimos nuestra historia.
-                    </h2>
-                    
-                    <!-- Divisor sutil con estrella dorada -->
-                    <div style="display: flex; align-items: center; margin-bottom: 25px;">
-                        <div style="flex-grow: 0; width: 40px; height: 1px; background-color: rgba(255,255,255,0.3);"></div>
-                        <span style="color: #f09f11; margin: 0 10px; font-size: 0.8rem;">✦</span>
-                        <div style="flex-grow: 0; width: 40px; height: 1px; background-color: rgba(255,255,255,0.3);"></div>
-                    </div>
-                    
-                    <p style="
-                        font-family: 'Lato', sans-serif;
-                        font-size: 1.1rem;
-                        line-height: 1.6;
-                        color: rgba(255, 255, 255, 0.85);
-                        max-width: 520px;
-                    ">
-                        Acompañemos a los arquitectos de su presente en el viaje de madurez que protegerá el futuro de su organización. <!-- 🛠️ LIMPIADO: Quitamos el palito "|" que estaba antes de "jubileo/madurez" -->
-                    </p>
+        <!-- EMPRESAS TALLERES -->
+        <div style="width: 100%; text-align: center; padding: 0 15px 20px 15px; margin-top: -10px; position: relative; z-index: 5;">
+            <p style="font-family: 'Lato', sans-serif; font-size: 0.85rem; font-weight: 700; color: #1e5d3b; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">
+                Empresas donde hemos facilitado talleres
+            </p>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
+                <div style="padding: 5px;">
+                    <img src="assets/img/logo-sanmarcos.jpg" alt="Hospital San Marcos" style="max-height: 55px; width: auto; object-fit: contain; filter: grayscale(15%) opacity(0.9); transition: all 0.3s ease;">
                 </div>
-
-                <!-- COLUMNA DERECHA: TARJETA DEL FORMULARIO -->
-                <div class="col-lg-5">
-                    <div style="
-                        background-color: #fcfbf7; /* Blanco roto premium */
-                        border-radius: 30px;
-                        padding: 40px;
-                        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-                    ">
-                        <h3 style="
-                            font-family: 'Georgia', serif;
-                            color: #023a40;
-                            font-size: 1.8rem;
-                            text-align: center;
-                            margin-bottom: 30px;
-                        ">
-                            Contactar Consultor
-                        </h3>
-                        
-                        <form>
-                            <!-- Campo 1: Nombre Organizacional -->
-                            <div class="form-group mb-4">
-                                <label style="
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-size: 0.75rem;
-                                    font-weight: 700;
-                                    color: #555555;
-                                    text-transform: uppercase;
-                                    letter-spacing: 1px;
-                                    display: block;
-                                    margin-bottom: 8px;
-                                ">Nombre Organizacional</label>
-                                <input type="text" class="form-control" placeholder="Ej: Universidad o Empresa SAS" style="
-                                    border-radius: 12px;
-                                    border: 1px solid #cccccc;
-                                    padding: 12px 15px;
-                                    font-family: 'Lato', sans-serif;
-                                    background-color: #ffffff;
-                                    font-size: 0.95rem;
-                                ">
-                            </div>
-                            
-                            <!-- Campo 2: Correo Corporativo -->
-                            <div class="form-group mb-4">
-                                <label style="
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-size: 0.75rem;
-                                    font-weight: 700;
-                                    color: #555555;
-                                    text-transform: uppercase;
-                                    letter-spacing: 1px;
-                                    display: block;
-                                    margin-bottom: 8px;
-                                ">Tu Correo Corporativo</label>
-                                <input type="email" class="form-control" placeholder="ejemplo@organizacion.com" style="
-                                    border-radius: 12px;
-                                    border: 1px solid #cccccc;
-                                    padding: 12px 15px;
-                                    font-family: 'Lato', sans-serif;
-                                    background-color: #ffffff;
-                                    font-size: 0.95rem;
-                                ">
-                            </div>
-                            
-                            <!-- Campo 3: Asunto de Interés -->
-                            <div class="form-group mb-4">
-                                <label style="
-                                    font-family: 'Montserrat', sans-serif;
-                                    font-size: 0.75rem;
-                                    font-weight: 700;
-                                    color: #555555;
-                                    text-transform: uppercase;
-                                    letter-spacing: 1px;
-                                    display: block;
-                                    margin-bottom: 8px;
-                                ">Asunto de Interés</label>
-                                <select class="form-control" style="
-                                    border-radius: 12px;
-                                    border: 1px solid #cccccc;
-                                    padding: 12px 15px;
-                                    font-family: 'Lato', sans-serif;
-                                    background-color: #ffffff;
-                                    height: auto;
-                                    font-size: 0.95rem;
-                                    color: #333333;
-                                ">
-                                    <option>Diseño de Programa de Retiro</option>
-                                    <option>Estrategia de Relevo Generacional</option>
-                                    <option>Consultoría Integral Laplenia</option>
-                                </select>
-                            </div>
-                            
-                            <!-- Botón de Envío -->
-                            <button type="submit" class="btn w-100" style="
-                                background-color: #012b30;
-                                color: #ffffff;
-                                font-family: 'Montserrat', sans-serif;
-                                font-weight: 700;
-                                font-size: 0.9rem;
-                                letter-spacing: 1px;
-                                text-transform: uppercase;
-                                padding: 14px;
-                                border-radius: 12px;
-                                border: none;
-                                transition: background-color 0.3s;
-                                margin-top: 10px;
-                            ">
-                                Construyamos el futuro juntos
-                            </button>
-                            
-                            <!-- Leyenda pequeña inferior -->
-                            <small style="
-                                display: block;
-                                text-align: center;
-                                color: #888888;
-                                font-family: 'Lato', sans-serif;
-                                font-size: 0.7rem;
-                                margin-top: 15px;
-                            ">
-                                Cumplimos con la política de tratamiento confidencial de datos.
-                            </small>
-                        </form>
-                    </div>
-                </div> <!-- 🛠️ REPARADO: Cierre de columna derecha -->
-                
-            </div> <!-- 🛠️ REPARADO: Cierre de la row -->
-        </div> <!-- 🛠️ REPARADO: Cierre del div con degradado -->
-    </div> <!-- 🛠️ REPARADO: Cierre del container -->
-</section> <!-- Cierre de la sección -->
-
-</section> <!-- AQUÍ TERMINA TU FORMULARIO CON DEGRADADO -->
-            
-
-
-
-<!-- ==========================================
-     SECCIÓN: EMPRESAS / TALLERES (FORZADO HACIA ARRIBA)
-=========================================== -->
-<div style="width: 100%; text-align: center; padding: 0 15px 20px 15px; margin-top: -65px; position: relative; z-index: 5;">
-    
-    <!-- TÍTULO BASTANTE MÁS CERCA DEL BORDE VERDE -->
-    <p style="
-        font-family: 'Lato', sans-serif; 
-        font-size: 0.85rem; 
-        font-weight: 700; 
-        color: #1e5d3b; 
-        text-transform: uppercase; 
-        letter-spacing: 2px; 
-        margin-bottom: 15px;
-    ">
-        Empresas donde hemos facilitado talleres
-    </p>
-
-    <!-- CONTENEDOR DE LOGO -->
-    <div style="
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        gap: 30px; 
-        flex-wrap: wrap; 
-        max-width: 900px; 
-        margin: 0 auto;
-    ">
-        
-        <!-- LOGO EMPRESA -->
-        <div style="padding: 5px;">
-            <img src="assets/img/logo-sanmarcos.jpg" 
-                 alt="Hospital San Marcos" 
-                 style="
-                    max-height: 55px; 
-                    width: auto; 
-                    object-fit: contain; 
-                    filter: grayscale(15%) opacity(0.9); 
-                    transition: all 0.3s ease;
-                 "
-                 onmouseover="this.style.filter='none'; this.style.opacity='1';"
-                 onmouseout="this.style.filter='grayscale(15%) opacity(0.9)';"
-            >
+            </div>
         </div>
 
-    </div>
-</div>
+        <!-- OLA TRANSICIÓN A FOOTER NARANJA -->
+        <div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 80px;">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,14.36,57.6,27.87,88.6,38.62c43.16,15,88.42,27.4,134.33,32.32A422.08,422.08,0,0,0,321.39,56.44Z" style="fill: #fcaa22;"></path>
+            </svg>
+        </div>
 
-
-<!-- ==========================================
-     OLA DE TRANSICIÓN INVERTIDA: BLANCO A NARANJA
-=========================================== -->
-<div style="position: relative; width: 100%; background-color: #ffffff; line-height: 0; margin: 0; padding: 0; overflow: hidden; z-index: 10;">
-    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="position: relative; display: block; width: calc(100% + 1.3px); height: 80px;">
-        <!-- Curva invertida: rellena el bloque inferior por completo -->
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,14.36,57.6,27.87,88.6,38.62c43.16,15,88.42,27.4,134.33,32.32A422.08,422.08,0,0,0,321.39,56.44Z" style="fill: #fcaa22;"></path>
-    </svg>
-</div>
-
-
-<!-- ==========================================
-     INICIO DE TU FOOTER NARANJA
-=========================================== -->
+        <!-- FOOTER -->
         <footer class="footer text-center">
-            
             <div class="container">
                 <div class="row">
-                    <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">UBICACIÓN</h4>
-                        <p class="pre-wrap lead mb-0">Manizales, Caldas <br> Colombia </p>
+                        <p class="lead mb-0">Manizales, Caldas <br> Colombia</p>
                     </div>
-                    <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">REDES</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="mb-4">REDES</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
-                    <!-- Footer About Text-->
                     <div class="col-lg-4">
                         <h4 class="mb-4">PROGRAMA</h4>
-                        <p class="pre-wrap lead mb-0">Acompañamiento integral que transforma la experiencia en legado corporativo perdurable </p>
+                        <p class="lead mb-0">Acompañamiento integral que transforma la experiencia en legado corporativo perdurable</p>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Copyright Section-->
+
         <section class="copyright py-4 text-center text-white">
-            <div class="container"><small class="pre-wrap">laplenia SAS©2026  </small></div>
+            <div class="container"><small>Laplenia SAS © 2026</small></div>
         </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-        <!-- Bootstrap core JS-->
+
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- VENTANAS MODALES (0 a 9) -->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Antorcha</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/antorcha-laplenia.jpeg" alt="La Antorcha"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Iluminando la Transición</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Enciende el compromiso y prepara la mentalidad de los colaboradores <i>senior</i> para transmitir su fuego y experiencia con propósito, transformando el retiro laboral en un motivo de orgullo y plenitud.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar ✨</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">El Faro</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/faro-laplenia.png" alt="El Faro"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Orientación y Claridad</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Define una guía clara en momentos de cambio organizacional, alineando la memoria histórica del equipo con la visión de futuro de la compañía para evitar incertidumbres.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">El Relicario</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bottle-laplenia.png" alt="El Relicario"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Captura del Saber Crítico</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Protege la inteligencia operativa acumulada durante años, creando canales emocionales y técnicos para que la experiencia no se pierda, sino que se atesore.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Llave</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/laplenia-key.png" alt="La Llave"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Acceso al Potencial de Relevo</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Desbloquea las barreras entre generaciones, abriendo la puerta a una comunicación fluida que facilita la entrega de responsabilidades sin fricciones.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Brújula</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/laplenia-brujula.png" alt="La Brújula"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Dirección y Navegación Conjunta</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Mantiene el rumbo del equipo directivo mediante valores compartidos, asegurando que los nuevos líderes mantengan la identidad y el ADN de la organización.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">El Sello</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lazos-laplenia.png" alt="El Sello"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Propósito: Blindaje Organizacional</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Consolida la cultura interna protegiéndola contra la pérdida de talento, garantizando una continuidad operativa segura y sostenible en el tiempo.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">La Semilla</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel1-laplenia.png" alt="La Semilla"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Nivel 1: Semilla del Legado</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Sensibilización y primeros pasos. La empresa establece las bases de un retiro respetuoso y de una cultura enfocada en el reconocimiento del talento humano.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Puente Generacional</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel2-laplenia.png" alt="Puente Generacional"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Nivel 2: Puente Generacional</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Integración y transferencia activa. Los equipos maduros y los nuevos talentos coexisten en sinergia, garantizando que el know-how fluya sin contratiempos.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Cumbre del Legado</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nivel3-laplenia.png" alt="Cumbre del Legado"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Nivel 3: Cumbre del Legado Consciente</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Sostenibilidad y trascendencia absoluta. La organización se consolida como un referente que honra la trayectoria de sus colaboradores mientras blinda su futuro ejecutivo.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Ecosistema Consciente</h2>
+                                    <div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/logoreal-laplenia.png" alt="Ecosistema Consciente"/>
+                                    <div style="padding: 20px 25px 30px 25px;">
+                                        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: #f09f11; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Ecosistema Integral: Programa Laplenia</p>
+                                        <p style="font-family: 'Lato', sans-serif; font-size: 0.95rem; color: #444444; line-height: 1.6; margin: 0;">Un itinerario de acompañamiento progresivo que articula <b>6 momentos clave de desarrollo</b> y <b>3 niveles de madurez estratégica</b>. Un modelo integral que guía paso a paso a la organización desde la preparación humana hasta la consolidación de un relevo generacional armónico, protegido y perdurable.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="far fa-smile fa-fw"></i>Cerrar 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCRIPTS JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- 🛠️ PEGA ESTA LÍNEA AQUÍ (Al puro final antes de que cierre el cuerpo de la web) -->
-    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js" type="module"></script>
+        <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js" type="module"></script>
     </body>
 </html>
